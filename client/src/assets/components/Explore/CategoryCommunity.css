@@ -1,0 +1,41 @@
+.community-image {
+    display: flex; /* Correct property */
+    flex-direction: row; /* Align items in a row */
+    gap: 1rem; /* Space between elements */
+    align-items: center;
+}
+.category-community{
+    display: flex; /* Correct property */
+    flex-direction: column; /* Align items in a row */
+    gap: 1rem; /* Space between elements */
+    align-items:flex-start;
+    width: 25rem;
+    height: 10rem;
+    background-color: var(--component-bg);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: background-color 0.25s ease;
+}
+
+.category-community:hover{
+    background-color: var(--gold);
+    color: var(--black);
+    cursor: pointer;
+    .description{
+        color: var(--black);
+        cursor: pointer;
+    }
+}
+
+.description {
+    display: -webkit-box; /* Use flex-like layout for multiline truncation */
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical; /* Specify vertical orientation for lines */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Add "..." for overflowing content */
+    color: white; /* For better visibility on red background */
+    font-size: 1rem; /* Adjust as needed */
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
+  
+  

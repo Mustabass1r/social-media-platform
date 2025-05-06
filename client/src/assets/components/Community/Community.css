@@ -1,0 +1,13 @@
+.community-page .main-content {
+    margin-top: 0;
+    margin-left: 1rem;
+    overflow-x: hidden; /* Remove horizontal scrollbar */
+}
+  
+.add-post-btn {
+    position: fixed; /* Fix the button relative to the viewport */
+    bottom: 2rem; /* Distance from the bottom of the viewport */
+    left: 68rem; /* Distance from the right edge of the viewport */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  

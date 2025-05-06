@@ -1,0 +1,29 @@
+.right-sidebar {
+    background-color: var(--component-bg);
+    color: white;
+    overflow-y: auto;
+    position: fixed;
+    align-self:flex-end;
+    margin-top: 8rem;
+    margin-right:  2rem;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 1.7rem;
+    color: var(--gold);
+    padding: 2rem;
+}
+
+.sug-sidebar-communities {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; /* Ensure it doesn't exceed parent width */
+}
+.sug-communities-list{
+    padding-top: 1rem;
+    color: white;
+}
+.sug-see-all-btn{
+    margin-left: 0.6    rem;
+}
+
+

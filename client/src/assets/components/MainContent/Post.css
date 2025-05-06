@@ -1,0 +1,83 @@
+ /* Post Card */
+  .post-card {
+    background-color: var(--component-bg);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+  }
+  
+  /* Post Header */
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .post-avatar {
+    margin-right: 1rem;
+  }
+  
+  .avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .post-user-info {
+    font-size: 0.9rem;
+  }
+  
+  .post-community {
+    font-weight: bold;
+  }
+  
+  .post-username {
+    color: var(--text-secondary);
+  }
+  
+  /* Post Content */
+  .post-content {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  
+  /* Post Image */
+  .post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  
+  /* Post.css */
+
+.post-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+  }
+  
+  .like-button,
+  .comment-button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  
+  .like-button:hover,
+  .comment-button:hover {
+    color: var(--gold);
+  }
+  
+  .like-button svg,
+  .comment-button svg {
+    margin-right: 5px;
+  }
+  

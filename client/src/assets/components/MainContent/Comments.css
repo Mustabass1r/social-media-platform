@@ -1,0 +1,161 @@
+/* Style for the modal content */
+
+/* For WebKit-based browsers (Chrome, Safari, newer Edge) */
+.MuiDialogContent-root::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* For Firefox */
+.MuiDialogContent-root {
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+
+.comment-button {
+  font-weight: bold;
+  color: var(--text-primary);
+  background-color: var(--button-bg);
+}
+
+.comments-list {
+  padding: 10px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+/* Style for each comment */
+.comment {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: var(--component-bg);
+
+}
+
+/* Style for the comment author */
+.comment-author {
+  font-weight: bold;
+  color: var(--gold);
+}
+
+/* Style for the comment content */
+.comment-content {
+  color: var(--text-primary);
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* Style for the footer (likes and reply button) */
+.comment-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.comments-title {
+  color: var(--gold);
+}
+
+.comment-input {
+  width: 60rem;
+}
+
+.comment-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 30rem;
+  margin-top: 10px;
+  background-color: var(--component-bg);
+}
+
+.comment-input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+
+.reply-button {
+  background-color: transparent;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+/* Style for replies */
+.replies-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.reply {
+  padding: 5px;
+  border-left: 2px solid #ddd;
+  margin-top: 5px;
+}
+
+.reply-author {
+  font-weight: bold;
+  color: var(--gold);
+}
+
+.reply-content {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.reply-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+
+
+.comment-author-info,
+.reply-author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.author-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  object-fit: cover;
+}
+
+.reply .author-avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.comment-author,
+.reply-author {
+  font-weight: bold;
+}
+
+.comment-content,
+.reply-content {
+  margin-left: 40px;
+}
+
+.reply .reply-content {
+  margin-left: 32px;
+}
+
+.comment-footer,
+.reply-footer {
+  margin-left: 40px;
+  margin-top: 0.5rem;
+}
+
+.reply .reply-footer {
+  margin-left: 32px;
+}

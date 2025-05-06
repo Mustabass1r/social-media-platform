@@ -1,0 +1,20 @@
+.explore-communities {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: flex-start;
+    padding: 2rem;
+    margin-left: 2rem;
+    width: 55rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
+    overflow-y: auto;
+    position: relative; /* Parent container for absolute positioning */
+}
+
+.create-community-btn {
+    position: absolute; /* Position freely inside the parent */
+    top: 4rem; /* Adjust vertical position */
+    right: 5rem; /* Adjust horizontal position */
+    z-index: 500; /* Ensure it stays above other content */
+}

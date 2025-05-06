@@ -1,0 +1,23 @@
+  /* Main Container */
+  .main-content {
+    margin-top: 6rem;
+    margin-right: 2.6rem;
+    width: 48rem;
+    height: auto; /* Allow dynamic height for scrolling */
+    border-radius: 12px;
+    background-color: var(--black);
+    overflow-y: auto;
+  }
+  
+  .main-container {
+    padding: 1.5rem;
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+  /* Loading Text */
+  .loading-text {
+    text-align: center;
+    color: var(--text-secondary);
+    margin: 1rem 0;
+  }
+  

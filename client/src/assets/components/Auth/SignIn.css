@@ -1,0 +1,16 @@
+.forget-password{
+    color: white;
+}
+.forget-password:hover{
+    color: var(--gold);
+    cursor: pointer;
+}
+
+.register-btn{
+    color: white;
+}
+
+.register-btn:hover{
+    color: var(--gold);
+    cursor: pointer;
+}

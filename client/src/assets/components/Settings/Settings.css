@@ -1,0 +1,68 @@
+
+.settings-content {
+    background-color: var(--component-bg);
+    height: auto;
+    width: 45rem;
+    display: flex; /* Ensure content is a flex container */
+    justify-content: center; /* Align its children to center */
+    padding: 2rem 2rem; /* Add padding for inner spacing */
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 30rem;
+}
+
+.setting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Add spacing between label and input */
+    align-items: center; /* Align vertically in the center */
+    gap: 1rem; /* Add small space between items */
+    width: 100%; /* Ensure it spans the full parent width */
+}
+
+.label{
+    font-size: 14px;
+    color: var(--white);
+}
+.input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1rem   ;
+    font-size: 14px;
+    width: fit-content;  
+    border:  1px solid ;
+}
+
+.input:focus{
+    outline: none;
+    border-color: var(--gold);
+}
+
+.buttons{
+    padding: 8px 16px;
+    color: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.btn{
+    padding: 8px 16px;
+    border: var(--gold) solid 2px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 14px;
+    width: 40rem;
+    background-color: transparent;
+}
+.btn:hover{
+    background-color: var(--gold);
+    color: var(--black);
+}
+

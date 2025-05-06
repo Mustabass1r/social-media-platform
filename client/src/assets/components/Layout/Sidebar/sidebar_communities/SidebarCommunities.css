@@ -1,0 +1,100 @@
+.sidebar-communities {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.6rem;
+    padding-right: 1rem;
+    max-width: 100%; /* Ensure it doesn't exceed parent width */
+}
+
+.my-communities-title {
+    color: var(--white);
+}
+
+.my-communities-count {
+    background-color: var(--gold);
+    color: var(--black);
+    padding: 0.10rem 0.85rem;
+    border-radius: 1rem;
+    margin-left: 4rem;
+    font-size: medium;
+}
+
+.see-all-button {
+    background-color: var(--component-bg);
+    border-color: var(--gold);
+    color: var(--gold);
+    width: 100%;
+    min-height: 2.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    font-size: 0.85rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.see-all-button:hover {
+    background-color: var(--gold);
+    color: var(--black);
+}
+
+.sidebar-community {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    max-width: 100%; /* Ensure it doesn't exceed the parent */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.sidebar-community:hover {
+    background-color: var(--black);
+    .community-name {
+        color: var(--gold);
+    }
+}
+
+.profile-picture {
+    width: 3rem; /* Set fixed dimensions for the container */
+    height: 3rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Makes the container circular */
+    background-color: var(--white);
+    overflow: hidden; /* Ensures image stays within the circular boundary */
+}
+
+.profile-picture img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image is cropped to fit within the circle */
+    border-radius: 50%; /* Applies circular shape to the image itself */
+}
+
+.community-info {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 4rem); /* Adjust to give space for the profile picture */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.community-name {
+    font-weight: bold; /* Bold text */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowed text */
+    text-overflow: ellipsis; /* Show ellipsis when text overflows */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+.total-members {
+    font-size: 0.875rem;
+    color: var(--white);
+}
+
+.total-members span {
+    margin-right: 0.25rem;
+}
