@@ -50,17 +50,7 @@ A full-stack social media platform that allows users to create, join, and intera
 ### Client
 The frontend code is located in the `client/` directory.
 client/
-   ├── public/ # Static assets
-   ├── src/
-   │ ├── assets/
-   │ ├── components/ # Reusable React components
-   │ ├── fonts/ # Custom fonts
-   │ ├── pages/ # Page-level components
-   │ ├── styles/ # Global styles
-   │ ├── App.jsx # Main application component
-   │ └── main.jsx # React entry point
-   ├── package.json # Frontend dependencies and scripts
-   └── vite.config.js # Vite configuration
+<pre lang="markdown"> ### Client (`client/`) ``` client/ ├── public/ # Static assets ├── src/ │ ├── assets/ # Images and other assets │ ├── components/ # Reusable React components │ ├── fonts/ # Custom fonts │ ├── pages/ # Page-level components │ ├── styles/ # Global styles │ ├── App.jsx # Main application component │ └── main.jsx # React entry point ├── package.json # Frontend dependencies and scripts └── vite.config.js # Vite configuration ``` </pre>
 
 
 ### Server
