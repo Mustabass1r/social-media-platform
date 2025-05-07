@@ -40,7 +40,6 @@ A full-stack social media platform that allows users to create, join, and intera
 ### Backend
 - **Framework:** Node.js with Express.js
 - **Database:** MongoDB (Mongoose for ORM)
-- **Authentication:** JWT (JSON Web Tokens)
 - **File Uploads:** Multer with Cloudinary integration
 
 ---
