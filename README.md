@@ -132,10 +132,12 @@ server/
 
 ## Environment Variables
 The backend requires the following environment variables:  
-    DATABASE_URL=<your-mongodb-connection-string>
-    CLOUDINARY_API_KEY=<your-cloudinary-api-key>
-    CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
+```bash
+    DATABASE_URL=<your-mongodb-connection-string>  
+    CLOUDINARY_API_KEY=<your-cloudinary-api-key>  
+    CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>  
     CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
+```
 
 ## Scripts
 ### Backend
@@ -150,8 +152,8 @@ npm run preview - Preview the production build.
 ```
 
 ## Acknowledgments
-React
-Node.js
-MongoDB
-Material-UI
-Cloudinary
+ - React  
+ - Node.js  
+ - MongoDB  
+ - Material-UI  
+ - Cloudinary  
