@@ -63,13 +63,13 @@ client/
     ├── styles/             # Global styles
     ├── App.jsx             # Main application component
     └── main.jsx            # React entry point
-```
 ├── package.json            # Frontend dependencies and scripts
 └── vite.config.js          # Vite configuration
-
+```
 
 ### Server
 The backend code is located in the `server/` directory.
+```
 server/
 ├── controllers/ # Business logic for routes
 ├── models/ # Mongoose schemas and models
@@ -78,6 +78,7 @@ server/
 ├── addUsers.js # Script to seed the database
 ├── .env # Environment variables
 └── package.json # Backend dependencies and scripts
+```
 
 
 ---
@@ -96,51 +97,57 @@ server/
    cd social-media-platform
 
 2. **Setup the backend:**
+    ```bash
     cd server
     npm install
     cp .env.example .env
     # Update .env with your MongoDB connection string and other secrets
     npm run devStart
 
-3. **Setup the frontend:**
+4. **Setup the frontend:**
+    ```bash
     cd ../client
     npm install
     npm run dev
 
-4. **Access the application:**
+6. **Access the application:**  
     Open your browser and navigate to http://localhost:5173.
 
 ## API Endpoints
 ### User Routes
-POST /users/register - Register a new user.
-POST /users/login - Authenticate a user.
+    POST /users/register - Register a new user.
+    POST /users/login - Authenticate a user.
 ### Community Routes
-POST /communities/create - Create a new community.
-GET /communities/communityInfo/:id - Get details of a community.
-PATCH /communities/joinCommunity - Join a community.
-DELETE /communities/leaveCommunity - Leave a community.
+    POST /communities/create - Create a new community.
+    GET /communities/communityInfo/:id - Get details of a community.
+    PATCH /communities/joinCommunity - Join a community.
+    DELETE /communities/leaveCommunity - Leave a community.
 ### Post Routes
-POST /posts/createPost - Create a new post.
-GET /posts/myPosts - Get posts created by the user.
-GET /posts/myCommentedPosts - Get posts the user has commented on.
-### Comment Routes
-POST /userPost/addComment - Add a comment to a post.
-POST /userPost/addReply - Add a reply to a comment.
+    POST /posts/createPost - Create a new post.
+    GET /posts/myPosts - Get posts created by the user.
+    GET /posts/myCommentedPosts - Get posts the user has commented on.
+    ### Comment Routes
+    POST /userPost/addComment - Add a comment to a post.
+    POST /userPost/addReply - Add a reply to a comment.
 
 ## Environment Variables
-The backend requires the following environment variables:
-DATABASE_URL=<your-mongodb-connection-string>
-CLOUDINARY_API_KEY=<your-cloudinary-api-key>
-CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
-CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
+The backend requires the following environment variables:  
+    DATABASE_URL=<your-mongodb-connection-string>
+    CLOUDINARY_API_KEY=<your-cloudinary-api-key>
+    CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
+    CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
 
 ## Scripts
 ### Backend
+```bash
 npm run devStart - Start the backend server with Nodemon.
+```
 ### Frontend
+```bash
 npm run dev - Start the development server.
 npm run build - Build the frontend for production.
 npm run preview - Preview the production build.
+```
 
 ## Acknowledgments
 React
