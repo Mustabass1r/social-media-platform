@@ -112,7 +112,10 @@ server/
 6. **Access the application:**  
     Open your browser and navigate to http://localhost:5173.
 
+---
+
 ## API Endpoints
+
 ### User Routes
     POST /users/register - Register a new user.
     POST /users/login - Authenticate a user.
@@ -129,6 +132,8 @@ server/
     POST /userPost/addComment - Add a comment to a post.
     POST /userPost/addReply - Add a reply to a comment.
 
+---
+
 ## Environment Variables
 The backend requires the following environment variables:  
 ```bash
@@ -138,7 +143,10 @@ The backend requires the following environment variables:
     CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
 ```
 
+---
+
 ## Scripts
+
 ### Backend
 ```bash
 npm run devStart - Start the backend server with Nodemon.
@@ -149,6 +157,8 @@ npm run dev - Start the development server.
 npm run build - Build the frontend for production.
 npm run preview - Preview the production build.
 ```
+
+---
 
 ## Acknowledgments
  - React  
